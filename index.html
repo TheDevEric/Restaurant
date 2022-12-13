@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zheng's</title>
+    <link rel="stylesheet" href="food.css">
+    <script src="food.js" defer></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+    <ul class="nav">
+        <li id="logo"><img src="Pictures/logo.png" height=50px width: 50px><a id="logoTxt">Zheng's</a></li>
+        <li><a class="click" id="home" href="/index.html">Home</a></li>
+        <li><a class="click" href="./faq.html">FAQ</a></li>
+        <li><a class="click" href="#service">Services</a></li>
+        <li><a class="click" href="#contact">Contact</a></li>
+        <li><a class="click" href="#shop">🛒</a></li>
+    </ul>
+    <div id="outerContainer">
+        <div id="container">
+            <div id="div1">
+                <p>Asian, but we can see how good our food is</p>
+                <br>
+                <p id="desc">"The Best Chinese Food" - Gordon Ramsey</p>
+                <br> <br>
+                <div class="Button" id="menu">Menu</div>
+                <div class="Button" id="reserve">Reserve</div>
+                <br>
+                <label for="amount" id="people">Guests:</label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"
+                    title="Accurately slide the amount of people that will be there.">
+                </p>
+                <div id="slider-range-max"></div>
+                <p id="date"><input type="text" id="datepicker"></p>
+                <br>
+                <div class="Button" id="sub">Submit</div>
+            </div>
+            <div id="div2">
+                <div id="dialog" title="Reservation Confirmation">
+                    <p>Your reservation has been recieved, please check your email for more information.</p>
+                </div>
+            </div>
+        </div>
+        <h1 id="txt2">Our Restaurant</h1>
+        <div id="container2">
+            <div id="div3"></div>
+            <div id="div4">
+                <p class="descr">Chef Zheng has been our head chef since the restaurant opened. He is originally from
+                    Beijing, but he
+                    decided to come to United States to further enhance his culinary skills. He started the restaurant:
+                    Zheng's to let the people of America taste authentic Chinese cuisine. Since the opening of Zheng's
+                    he has gotten 3 michelin stars, and continues to improve his techniques.</p>
+            </div>
+        </div>
+        <div id="container3">
+            <div id="div5">
+                <p class="descr">We use the best and the freshest ingredients to further elevate our food. We always
+                    follow our motto fresh never frozen, and we still stand by that. We get all of our produce from the
+                    Bob's Farm. Thanks to them we provide our customers with the best non gmo food, cage free chicken,
+                    and freshly picked vegetables </p>
+            </div>
+            <div id="div6"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212306.97931119948!2d-112.32505644999999!3d33.7530019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b5ae6de3cc901%3A0xd3dfa520c130189d!2sPeoria%2C%20AZ!5e0!3m2!1sen!2sus!4v1670891371478!5m2!1sen!2sus"
+            width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <hr>
+    <ul class="nav">
+        <li id="logo"><img src="Pictures/logo.png" height=50px width: 50px><a id="logoTxt">Zheng's</a></li>
+        <li><a class="click" id="home" href="/index.html">Home</a></li>
+        <li><a class="click" href="./faq.html">FAQ</a></li>
+        <li><a class="click" href="#service">Services</a></li>
+        <li><a class="click" href="#contact">Contact</a></li>
+        <li><a class="click" href="#shop">🛒</a></li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+/*Imported Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*navigation bar*/
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+#logo{
+    margin: 0px 0 0 100px;
+}
+
+#logoTxt{
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+}
+
+li{
+    float: left;
+    font-family: 'Merienda', cursive;
+}
+
+.click{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px 50px;
+    transition: background 1s linear;
+}
+
+.click:hover{
+    background-color: gray;
+}
+
+#home{
+    margin-left: 450px;
+}
+
+/*content*/
+#div1{
+    width: 100%;
+    height: 250px;
+    background-image: url(/Pictures/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+}
+
+#txt{
+text-align: center;
+font-size: 30px;
+margin-top: 20px;
+font-family: 'Shrikhand', cursive;
+text-decoration: underline;
+text-decoration-style:double;
+text-decoration-color: rgb(228, 59, 59);
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 600px;
+    background-color: black;
+}
+
+#map{
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+#photo{
+text-align: center;
+font-size: 30px;
+margin-top: 20px;
+font-family: 'Shrikhand', cursive;
+text-decoration: underline;
+text-decoration-style:double;
+text-decoration-color: rgb(228, 59, 59);
+}
+
+#feedback { font-size: 1.4em; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 900px; }
+  #selectable li { margin: 3px; padding: 1px; float: left; width: 200px; height: 160px; font-size: 4em; text-align: center; }
+
+  #selectable{
+    margin-left: 270px;
+  }
+
+.gal-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1.01s;
+}
+
+.gal-img:hover{
+    scale: 1.15;
+    transition: 1.00s;
+    z-index: 1;
+    box-shadow: 3px 3px 0px 0px black;
+}
+
+.gal-img::after{
+    z-index: 1;
+}
+
+.gal-img::before{
+    z-index: -1;
+}
