@@ -55,7 +55,7 @@ li{
 #div1{
     width: 100%;
     height: 250px;
-    background-image: url(./Pictures/pic.jpg);
+    background: url(./Pictures/pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -300px;
